@@ -37,13 +37,13 @@ public class FlexiFaCT extends Configured implements Tool  {
 					+ "ff.P0=# Range of third dimension in 1st data set\n"
 					+ "ff.M1=# Range of second dimension in 2nd data set\n"
 					+ "ff.P1=# Range of third dimension in 2nd data set\n"
-					+ "ff.weight0=# - Weight data set 1 loss by this weight\n",
-					+ "ff.weight1=# - Weight data set 2 loss by this weight\n",
-					+ "ff.initMean=# - We will initialize the factors to be a Gaussian around this number (with variance 1)\n",
-					+ "ff.regularizerLambda=# - Weight L1 penalty with this lambda value\n",
-					+ "ff.sparse=1 - If set to 1 will add an L1 penalty to the loss\n",
-					+ "ff.nnmf=1 - If set to 1 will do a projection to make sure all factors are non-negative\n",
-					+ "ff.kl=1 - If set to 1 will use the KL divergence for the loss function\n",
+					+ "ff.weight0=# - Weight data set 1 loss by this weight\n"
+					+ "ff.weight1=# - Weight data set 2 loss by this weight\n"
+					+ "ff.initMean=# - We will initialize the factors to be a Gaussian around this number (with variance 1)\n"
+					+ "ff.regularizerLambda=# - Weight L1 penalty with this lambda value\n"
+					+ "ff.sparse=1 - If set to 1 will add an L1 penalty to the loss\n"
+					+ "ff.nnmf=1 - If set to 1 will do a projection to make sure all factors are non-negative\n"
+					+ "ff.kl=1 - If set to 1 will use the KL divergence for the loss function\n"
 					+ "ff.debug=1 - If set to 1 will use plain text files and will be more verbose\n\n",
 					getClass().getSimpleName()); ToolRunner.printGenericCommandUsage(System.err); 
 			return -1;
