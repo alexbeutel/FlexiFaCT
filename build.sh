@@ -7,7 +7,7 @@ HADOOP_CORE='hadoop-core-0.20.203.0.jar'
 rm -rf ff_classes
 mkdir ff_classes
 javac -classpath ${HADOOP_HOME}/$HADOOP_CORE -d ff_classes/ FlexiFaCT.java FFMapper.java FFReducer.java Tensor.java SparseTensor.java DenseTensor.java Matrix.java FFMapperPaired.java FFPartitioner.java KeyComparator.java GroupComparator.java IntArray.java FloatArray.java
-jar -cvf FF.jar -C ff_classes/ .
+jar -cvf FlexiFaCT.jar -C ff_classes/ .
 rm -rf ff_classes
 
 

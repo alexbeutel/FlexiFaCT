@@ -392,8 +392,8 @@ public class Loss extends Configured implements Tool  {
 
 			String key = "-" + args[3];
 
-			BufferedWriter lossResults = new BufferedWriter(new FileWriter("/home/abeutel/loss" + key + ".txt",true)); ;
-			//BufferedWriter lossResults = new BufferedWriter(new FileWriter("/home/abeutel/loss" + key + ".txt",true)); ;
+			BufferedWriter lossResults = new BufferedWriter(new FileWriter("loss" + key + ".txt",true)); ;
+			//BufferedWriter lossResults = new BufferedWriter(new FileWriter("loss" + key + ".txt",true)); ;
 			if(!isPaired) {
 				lossResults.write(i + "\t" + (loss/1000.0) + "\t" + count + "\t" + updated + "\t" + ((loss/1000.0)/count)+ "\t" + Math.sqrt( (loss/1000.0)/count ) + "\n");
 			} else {
