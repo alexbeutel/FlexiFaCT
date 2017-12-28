@@ -48,7 +48,7 @@ FlexiFaCT is developed by:
 
 Alex Beutel, Carnegie Mellon University - http://alexbeutel.com/
 
-Abhimanu Kumar, Carnegie Mellon University  - http://www.abhimanukumar.com/
+Abhimanu Kumar, Carnegie Mellon University  - http://abhimanukumar.com/
 
 Evangelos Papalexakis, Carnegie Mellon University  - http://www.cs.cmu.edu/~epapalex/
 
